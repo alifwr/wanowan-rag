@@ -1,19 +1,44 @@
+"""
+Text Storage Example for RAG System
+
+This example demonstrates how to store a collection of text documents in Elasticsearch
+with vector embeddings for later retrieval. This is the simplest form of document
+storage where each text snippet becomes a separate searchable document.
+
+Use Case:
+- Storing individual sentences, reviews, or short text snippets
+- Creating a knowledge base from text fragments
+- Testing the basic indexing and search functionality
+
+The example uses e-commerce customer feedback texts, but you can replace them
+with any collection of texts relevant to your use case.
+"""
+
 from dotenv import load_dotenv
 
+# Load environment variables from .env file (contains API keys, database URLs, etc.)
 load_dotenv()
 import os
 from services.elastic_search import ElasticsearchService
 
 if __name__ == "__main__":
+    # Get Elasticsearch URL from environment variables
+    # This allows different configurations for development/production
     es_url = os.getenv("ES_HOST", "")
+
+    # Initialize the Elasticsearch service with configuration
+    # This creates a connection to Elasticsearch and sets up the embeddings model
     es_service = ElasticsearchService(
         es_url=es_url,
-        index_name="large-docs-index",
-        text_field="text",
-        dense_vector_field="embeddings",
-        num_characters_field="num_characters",
+        index_name="large-docs-index",      # Name of the index (like a table name)
+        text_field="text",                  # Field name for storing text content
+        dense_vector_field="embeddings",    # Field name for storing vector embeddings
+        num_characters_field="num_characters",  # Field for text length metadata
     )
 
+    # Collection of text documents to index
+    # Each string becomes a separate document in the search index
+    # These are example e-commerce customer feedback statements
     texts = [
         "The mobile app crashes frequently when adding items to cart during peak hours.",
         "Customer service response time has improved significantly since the last update.",
@@ -43,12 +68,22 @@ if __name__ == "__main__":
         "Product categories are well-organized but subcategories could be more intuitive.",
     ]
 
+    # Index all the text documents
+    # This converts texts to embeddings and stores them in Elasticsearch
+    # recreate_index=True means it will replace any existing data
     num_indexed = es_service.index_data(
-        es_service.index_name,
-        es_service.text_field,
-        es_service.dense_vector_field,
-        es_service.embeddings,
-        texts,
-        recreate_index=True,
+        index_name=es_service.index_name,
+        text_field=es_service.text_field,
+        dense_vector_field=es_service.dense_vector_field,
+        embeddings=es_service.embeddings,
+        texts=texts,
+        recreate_index=True,  # Replace existing index if it exists
     )
+
+    # Report the results
     print(f"Indexed {num_indexed} documents.")
+
+    # Next steps:
+    # 1. Run es_query_example.py to search through these documents
+    # 2. Try different queries to see how vector search works
+    # 3. Experiment with different top_k and candidates values
