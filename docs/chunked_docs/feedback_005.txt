@@ -1,0 +1,27 @@
+Customer Feedback #005
+Date: 2024-10-11
+Customer ID: USR-9247
+Category: Feature Request / Bug Report
+
+Subject: Search Function Needs Major Improvement
+
+The search functionality on your website is really frustrating to use. Here are the specific issues I've encountered:
+
+1. POOR RELEVANCE: When I search for "wireless bluetooth headphones," I get results for wired headphones, phone cases, and other random electronics. The actual Bluetooth headphones are buried on page 3 or 4.
+
+2. NO FILTERS PERSIST: If I apply filters (price range, brand, rating), they reset when I click on a product and come back to the results page.
+
+3. TYPO INTOLERANCE: If I misspell something slightly (like "blutooth" instead of "bluetooth"), I get zero results instead of suggested corrections.
+
+4. SORTING ISSUES: The "Sort by Price" option seems broken - items aren't actually sorted in price order.
+
+Suggestions:
+- Implement better search algorithms (maybe AI-based?)
+- Add "Did you mean...?" suggestions for typos
+- Keep filters active during the entire browsing session
+- Add more filter options (color, size, material, etc.)
+- Show "Frequently Bought Together" suggestions
+
+The products are great, but finding them is a nightmare. Please prioritize fixing the search experience.
+
+Rating: 3/5 stars

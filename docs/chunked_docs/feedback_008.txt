@@ -1,0 +1,35 @@
+Customer Feedback #008
+Date: 2024-10-08
+Customer ID: USR-1156
+Category: User Experience Suggestions
+
+Subject: Website Design Improvements Needed
+
+As a UX designer myself, I wanted to provide some constructive feedback on your website's user interface. Overall, the site functions, but there's significant room for improvement.
+
+ISSUES IDENTIFIED:
+
+1. Navigation Menu: The mega menu has too many categories and subcategories. It's overwhelming and takes up half the screen. Consider a simpler, more organized structure.
+
+2. Product Images: On mobile devices, product images are too small and you can't zoom in properly. The pinch-to-zoom feature doesn't work consistently.
+
+3. Color Contrast: Some text (especially sale prices in red) has poor contrast against the background, making it hard to read, especially for people with visual impairments. This is an accessibility issue.
+
+4. Button Placement: The "Add to Cart" button is below the fold on many product pages. Users shouldn't have to scroll to find the primary action.
+
+5. Loading Times: Pages take 4-5 seconds to load, which is too slow by modern standards. Consider image optimization and lazy loading.
+
+6. Checkout Progress Indicator: There's no clear indication of how many steps are left in the checkout process.
+
+SUGGESTIONS:
+
+- Implement a breadcrumb navigation system
+- Add a sticky "Add to Cart" button on product pages
+- Use a more modern, minimalist design
+- Improve accessibility (WCAG 2.1 compliance)
+- Add skeleton screens while content loads
+- Include customer reviews at the top of product pages
+
+I'm sharing this because I like your products and want the platform to succeed. Happy to discuss further if you want detailed mockups.
+
+Rating: 3/5 stars

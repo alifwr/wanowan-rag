@@ -1,0 +1,38 @@
+Customer Feedback #015
+Date: 2024-10-01
+Customer ID: USR-3394
+Category: International Shipping Complaint
+
+Subject: Unexpected Customs Fees and Poor Communication
+
+I'm writing from Canada and recently ordered from your US-based store. While I was excited about the products, the international shipping experience has been terrible.
+
+PROBLEMS ENCOUNTERED:
+
+1. HIDDEN COSTS: At checkout, I paid $25 for "international shipping" but received zero information about potential customs fees, duties, or taxes. When the package arrived, I had to pay an additional $47 CAD in customs fees and handling charges. The total shipping cost was almost as much as the product itself!
+
+2. SHIPPING DELAYS: Estimated delivery was 7-10 business days. It took 21 days. The tracking information stopped updating once it left the US, leaving me completely in the dark for two weeks.
+
+3. INCORRECT CUSTOMS DECLARATION: The customs form listed the wrong product value, which caused issues with the customs office. I had to provide my order receipt to correct it.
+
+4. NO INTERNATIONAL SUPPORT: Your customer service operates during US business hours only. The time zone difference (I'm PST but 3 hours ahead doesn't help much) made it nearly impossible to get real-time support.
+
+WHAT SHOULD HAVE HAPPENED:
+
+- Clear disclosure of potential customs fees at checkout (or include them in shipping cost)
+- Accurate delivery estimates for international orders
+- Tracking that works across borders
+- Proper customs documentation
+- International customer service hours or better self-service options
+
+SUGGESTIONS:
+
+- Add a customs fee calculator at checkout
+- Partner with DDP (Delivered Duty Paid) carriers so customers pay everything upfront
+- Provide country-specific shipping information pages
+- Offer "international express" with better tracking
+- Create an international shipping FAQ
+
+I love your products but won't order internationally again unless these issues are addressed. You're losing significant business from international customers.
+
+Rating: 2/5 stars

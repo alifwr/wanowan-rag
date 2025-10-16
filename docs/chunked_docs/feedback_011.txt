@@ -1,0 +1,36 @@
+Customer Feedback #011
+Date: 2024-10-05
+Customer ID: USR-4472
+Category: Security Concern
+
+Subject: URGENT - Potential Security Vulnerability
+
+I'm a cybersecurity professional and I've noticed what appears to be a significant security issue on your website that needs immediate attention.
+
+THE ISSUE:
+When I view my order history, the URL contains my full customer information including what appears to be an unencrypted customer ID and order details as query parameters. Example:
+yoursite.com/orders?customerID=4472&email=myemail@domain.com
+
+This means:
+1. Anyone looking over my shoulder can see my customer ID and email
+2. This information could be logged in browser history on shared computers
+3. If I share my screen, this sensitive data is visible
+4. It's vulnerable to URL manipulation attacks
+
+ADDITIONAL CONCERNS:
+- I don't see two-factor authentication (2FA) options for account security
+- The password reset process only requires email verification (no additional security questions)
+- Saved payment methods show the last 4 digits on the account page (secure, but why display at all?)
+
+RECOMMENDATIONS:
+1. IMMEDIATELY fix the URL parameter issue - use POST requests or session tokens instead
+2. Implement 2FA for user accounts
+3. Add security questions for password resets
+4. Conduct a full security audit
+5. Consider a bug bounty program
+
+I'm reporting this to you first rather than publicly disclosing it, but this needs to be addressed within days, not weeks. Customer data security should be your top priority.
+
+I can provide more technical details if your security team wants to contact me directly.
+
+Rating: 2/5 stars (only because of this critical issue)

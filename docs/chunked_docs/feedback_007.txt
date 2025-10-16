@@ -1,0 +1,30 @@
+Customer Feedback #007
+Date: 2024-10-09
+Customer ID: USR-7429
+Category: Bug Report - Checkout Process
+
+Subject: Cannot Complete Purchase - Payment Keeps Failing
+
+I've been trying to purchase items for the past 2 hours and keep getting an error at the payment stage. This is extremely frustrating!
+
+The error message says: "Payment processing failed. Please try again or use a different payment method."
+
+What I've tried:
+- 3 different credit cards (all are active and have sufficient funds)
+- PayPal account
+- Cleared browser cache and cookies
+- Tried on different browsers (Chrome, Firefox, Safari)
+- Attempted on both desktop and mobile
+
+The same error appears every time. I called my bank and they confirmed there are no issues on their end - no declined transactions are even showing up, which suggests the payment isn't even reaching the processor.
+
+I really want to complete this purchase as several items in my cart are on sale today, but I'm about to give up and shop elsewhere. This is costing you sales!
+
+Please fix this critical bug immediately. I'd also appreciate a discount code for the trouble once this is resolved.
+
+Technical details:
+Browser: Chrome 118.0.5993.88
+Operating System: Windows 11
+Order attempting: ORD-PENDING-9284
+
+Rating: 1/5 stars

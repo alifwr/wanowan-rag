@@ -1,0 +1,26 @@
+Customer Feedback #002
+Date: 2024-10-14
+Customer ID: USR-8834
+Category: Bug Report
+
+Subject: Cart Items Disappearing on Mobile App
+
+I've been experiencing a frustrating bug on the mobile app (iOS version 3.2.1). Every time I add items to my cart and switch to another app or lock my phone, when I come back to the e-commerce app, my cart is completely empty.
+
+Steps to reproduce:
+1. Open the app and browse products
+2. Add 3-4 items to cart
+3. Press home button or lock phone
+4. Wait 2-3 minutes
+5. Reopen the app
+6. Cart is empty
+
+This has happened 5 times in the past week. I've tried logging out and back in, reinstalling the app, but the problem persists. It's making it impossible to shop on mobile.
+
+Device: iPhone 13 Pro
+iOS Version: 17.6.1
+App Version: 3.2.1
+
+Please fix this issue urgently.
+
+Rating: 2/5 stars
