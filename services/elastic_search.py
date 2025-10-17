@@ -270,3 +270,32 @@ class ElasticsearchService:
 
         # Execute the search and return results
         return vector_retriever.invoke(query_search)
+
+    def get_retriever(self, top_k: int = 5, candidates: int = 10):
+        """
+        Create and return an ElasticsearchRetriever for use with LangChain chains.
+
+        This method creates a retriever that can be used with RetrievalQA, ConversationalRetrievalChain,
+        or other LangChain components that need document retrieval capabilities.
+
+        Args:
+            top_k (int): Number of top results to return (default: 5)
+            candidates (int): Number of candidates to evaluate (default: 10)
+
+        Returns:
+            ElasticsearchRetriever: A retriever that can search the vector index
+
+        Example:
+            >>> retriever = es_service.get_retriever(top_k=3, candidates=5)
+            >>> qa_chain = RetrievalQA.from_chain_type(llm=llm, retriever=retriever)
+        """
+        # Create a retriever that knows how to search our index
+        # body_func is a function that generates the search query for a given input
+        vector_retriever = ElasticsearchRetriever.from_es_params(
+            index_name=self.index_name,                    # Which index to search
+            body_func=lambda q: self.vector_query(q, top_k, candidates),  # How to create search queries
+            content_field=self.text_field,                 # Which field contains the text
+            url=self.es_url                               # Elasticsearch server URL
+        )
+
+        return vector_retriever
